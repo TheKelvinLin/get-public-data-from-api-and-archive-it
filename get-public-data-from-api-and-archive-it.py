@@ -7,7 +7,7 @@ import json
 json_array = json.loads(data)
 
 import os
-__location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__))) #取得跟程式相同的位置
+__location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__))) # Get the same position as the program
 
 with open(os.path.join(__location__, 'data.txt'), "w", encoding = "UTF-8") as textFile:
    for item in json_array["result"]["results"]:
