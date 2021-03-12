@@ -1,4 +1,4 @@
-# Get public data from api and archive it
+# Taipei Travel Info Archive
 The Taipei City Government provides public information on attractions at the following URLs:  
 https://data.taipei/api/v1/dataset/36847f3f-deff-4183-a5bb-800737591de5?scope=resourceAquire  
   
